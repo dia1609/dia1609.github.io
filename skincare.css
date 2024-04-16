@@ -1,0 +1,75 @@
+body {
+    background-color:#ffdbdb;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    
+}
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color:white;
+    color: black;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    align-items: center; 
+    align-content: space-around;
+    flex-wrap: wrap; 
+}
+
+#revVar {
+    background-color:darksalmon;
+    display: inline;
+    border: 2px solid black;
+}
+
+#checkout {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    
+}
+  
+#checkout a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+#checkout a:hover {
+    background-color:white;
+    color: black;
+}
